@@ -125,29 +125,6 @@ footer ul{
   font-size: 1.2em;
 }
 
-/* Scroll Bar */
-#progress {
-  position: fixed;
-  bottom: 50px;
-  right: 1px;
-  height: 60px;
-  width: 60px;
-  display: none;
-  place-items: center;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-#progress-value {
-  display: block;
-  height: calc(100% - 15px);
-  width: calc(100% - 15px);
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 35px;
-  color:#595959;
-}
 @media only screen and (min-width:300px)and (max-width: 767px){
 
   .logo{
@@ -202,6 +179,28 @@ footer ul{
     text-align: justify;
     grid-row-gap:20px;
    }
-
+   /* Scroll Bar */
+#progress {
+  position: fixed;
+  bottom: 50px;
+  right: 1px;
+  height: 60px;
+  width: 60px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color:#595959;
+}
   
 }
