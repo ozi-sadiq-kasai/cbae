@@ -139,9 +139,9 @@ footer ul{
     margin-right:300px;
     padding: 5px;
   }
-  /* .container{
+  .container{
     padding: 20px 40px 50px 40px;
-  } */
+  }
   .container-nav{
     padding: 10px;
     width: 100%;
@@ -162,6 +162,7 @@ footer ul{
     display: block;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   footer{
     display: none;
@@ -175,7 +176,6 @@ footer ul{
   /* MENU TAB CHANGE */
   nav ul li a{
     text-decoration: none;
-    /* color: white; */
     padding: 0.3em;
     font-size: 18px;
     -webkit-transition: all .3s ease-out;
