@@ -135,8 +135,8 @@ footer ul{
 @media only screen and (min-width:300px)and (max-width: 767px){
 
   .logo{
-    width: 100px;
-    margin-right:400px;
+    width: 70px;
+    margin-right:300px;
     padding: 5px;
   }
   /* .container{
