@@ -133,8 +133,8 @@ footer ul{
     position: fixed;
     bottom: 60px;
     right: 1px;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     display: none;
     place-items: center;
     border-radius: 50%;
@@ -148,7 +148,7 @@ footer ul{
     width: calc(100% - 15px);
     display: grid;
     place-items: center;
-    font-size: 35px;
+    font-size: 25px;
     color:#595959;
   }
     
