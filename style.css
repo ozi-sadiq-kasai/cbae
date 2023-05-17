@@ -191,7 +191,7 @@ footer ul{
    /* Scroll Bar */
 #progress {
   position: fixed;
-  bottom: 80px;
+  bottom: 60px;
   right: 0.1px;
   height: 60px;
   width: 60px;
@@ -204,6 +204,8 @@ footer ul{
 #progress-value {
   display: block;
   border-radius: 50%;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
   display: grid;
   place-items: center;
   font-size: 35px;
