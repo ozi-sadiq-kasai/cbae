@@ -14,14 +14,6 @@ html {
 .container{
   padding: 20px;
 }
-
-/* .grid{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  justify-items: center;
-  gap:3em;
-  text-align: center;
-} */
 .flex{
   display: flex;
   justify-content: space-between;
@@ -106,6 +98,7 @@ img{
   height: auto;
   object-fit: cover;
   padding: 0;
+  vertical-align: top;
 }
 footer{
   background-color: black;
